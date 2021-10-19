@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))//window prompt sempre vai retornar uma string, mesmo que digitemos um numerico, portanto é preciso converter de string pra número (parseInt(n) e se for com ponto, parseFloat(n))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1+n2 
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+        //atualmente o JS consegue se virar com o Number(n), ele descobre se é float ou inteiro, entretanto, quando queremos forçar um número a ser real ou float usamos parseint. 
+
+        //para converter para string usamos String(n)
+
+        //se tiver alguma coisa errada no window.alert sequer aparecerá os window.prompt
+    </script>
+</body>
+</html>
