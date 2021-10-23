@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color:azure;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+}
+
+
+footer{
+    text-align: center;
+}
+
+body{
+    background-color: rgba(122, 44, 74, 0.507);
+}
+
+
+section{
+    background-color: rgb(248, 245, 239);
+    border-radius: 1em;
+    margin:auto;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+#res{
+    text-align: center;
+
+}
+
+img{
+    padding-top: 20pt;
+    
+}
+
+.botao{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
